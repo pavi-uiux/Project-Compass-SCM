@@ -18,15 +18,19 @@ Create and activate virtual environment
 python -m venv venv
 venv\Scripts\activate
 
+---
 
 Install required libraries
 
 pip install -r requirements.txt
 
+---
 
 Run the FastAPI server
 
 uvicorn main:app --reload
+
+---
 
 Run the frontend
 
