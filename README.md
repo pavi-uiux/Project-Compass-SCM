@@ -32,6 +32,12 @@ uvicorn main:app --reload
 
 ---
 
+Run the kafka 
+
+python kafka_consumer_demo.py
+
+---
+
 Run the frontend
 
 streamlit run app.py
